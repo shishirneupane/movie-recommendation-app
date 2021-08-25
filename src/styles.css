@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+:root {
+  --off-white: #f3f4f6;
+  --raisin-black: #231f20;
+}
+
+body {
+  background-color: var(--raisin-black);
+  color: var(--off-white);
+  margin: auto;
+  max-width: 50%;
+  padding: 2rem;
+}
+
+.App {
+  font-family: Lato;
+  text-align: left;
+}
+
+.App #github-repo {
+  font-size: 3rem;
+  color: var(--off-white);
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+
+.App h1 {
+  font-size: 2.2rem;
+  margin-block-start: 0;
+}
+
+.App h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.App p {
+  line-height: 1.5rem;
+}
+
+.App button {
+  font-size: 1rem;
+  color: var(--off-white);
+  background-color: var(--raisin-black);
+  padding: 1rem 1.2rem;
+  margin: 0.5rem 1rem 0.5rem 0;
+  border: 1px solid var(--off-white);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.App button:hover,
+button:focus,
+button:active {
+  background-color: var(--off-white);
+  color: var(--raisin-black);
+}
+
+.App hr {
+  margin: 1rem 0;
+}
+
+.App ul {
+  padding-inline-start: 0;
+}
+
+.App li {
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.App img {
+  width: 220px;
+  object-fit: cover;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
